@@ -2,8 +2,13 @@
 var dgram = require("dgram");
 var osc = require('osc-min');
 
+var huereq = require("node-hue-api");
+console.log(huereq);
 
-var hue = require("node-hue-api").hue;
+var hue = require("node-hue-api");
+
+console.log(hue);
+
 var lightState = require("node-hue-api").lightState;
 
 var username = "newdeveloper";
