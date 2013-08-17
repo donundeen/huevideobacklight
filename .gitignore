@@ -3,8 +3,12 @@ node_modules
 
 hue.node copy.js
 
+<<<<<<< HEAD
 .DS_Store
 
 .gitignore
 
 .DS_Store
+=======
+DS_Store
+>>>>>>> f5ed2a75cdc78c8f9cb5472d0f263da7bc579e3e
