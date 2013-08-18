@@ -135,7 +135,11 @@ function rgb(args){
 	state = lightState.create().on().rgb(r, g, b);
 
 	try{
+		api.setLightState(1, state)
+  			.done();
 		api.setLightState(2, state)
+  			.done();
+		api.setLightState(3, state)
   			.done();
 	}catch(e){
 		console.log("error");
