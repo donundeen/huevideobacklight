@@ -11,5 +11,5 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 echo "dir is $DIR"
 
 # start max mxf
-open -a Max\ Runtime.app $DIR/VideoBacklight.mxf & 
+open -a /Applications/Max 6.1 Runtime/Max\ Runtime.app $DIR/VideoBacklight.mxf & 
 /usr/local/bin/node $DIR/hue.node.js 
